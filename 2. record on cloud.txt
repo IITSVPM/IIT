@@ -4,7 +4,7 @@
 #include<ESP8266WiFi.h>
 #include <WiFiClient.h>
 #include <ThingSpeak.h>
-#define DHTPIN D5
+#define DHTPIN D7
 #define DHTTYPE DHT11
 DHT dht(DHTPIN,DHTTYPE);
 const char*ssid="OPPO F21s Pro 5G";
